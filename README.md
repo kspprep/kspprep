@@ -1,18 +1,10 @@
-# KSPPrep Website v2
+# KSPPrep Website v4
 
-Official public website for KSPPrep.
+Adds a dedicated Test Center page and keeps the full primary navigation visible on Android/mobile web using a horizontal scroll row.
 
-## Pages
-- `index.html` — redesigned product homepage
-- `privacy.html` — privacy policy
-- `delete-account.html` — account and data deletion
-- `support.html` — support
-
-## Assets
-- `assets/icon.png` — KSPPrep icon
-- `assets/screens/` — selected real Android app screenshots
-
-## Deployment
-Upload the contents of this folder to the root of the `kspprep/kspprep` GitHub repository. Keep the existing GitHub Pages custom domain set to `kspprep.com`.
-
-KSPPrep is independently owned and is not affiliated with the Kentucky State Police.
+Primary navigation:
+- Features
+- Training
+- Test Center
+- Roadmap
+- Support
