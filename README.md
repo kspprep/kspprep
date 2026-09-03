@@ -1,11 +1,18 @@
-# KSPPrep
+# KSPPrep Website v2
 
-Official support and privacy website for KSPPrep.
+Official public website for KSPPrep.
 
-- Privacy Policy
-- Account & Data Deletion
-- Support
+## Pages
+- `index.html` — redesigned product homepage
+- `privacy.html` — privacy policy
+- `delete-account.html` — account and data deletion
+- `support.html` — support
 
-KSPPrep is an independent fitness-preparation application and is not affiliated with the Kentucky State Police.
+## Assets
+- `assets/icon.png` — KSPPrep icon
+- `assets/screens/` — selected real Android app screenshots
 
-Support: kspprepsupport@gmail.com
+## Deployment
+Upload the contents of this folder to the root of the `kspprep/kspprep` GitHub repository. Keep the existing GitHub Pages custom domain set to `kspprep.com`.
+
+KSPPrep is independently owned and is not affiliated with the Kentucky State Police.
