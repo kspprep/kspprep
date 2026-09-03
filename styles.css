@@ -1,0 +1,14 @@
+:root{--bg:#0B0D0F;--card:#15191D;--card2:#20252A;--gold:#D9A441;--text:#fff;--muted:#A0A6AB;--line:#292E33;--danger:#FF8A80}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;line-height:1.6}
+a{color:inherit}.wrap{width:min(1040px,calc(100% - 40px));margin:auto}.nav{position:sticky;top:0;z-index:10;background:rgba(11,13,15,.94);border-bottom:1px solid var(--line);backdrop-filter:blur(12px)}
+.navin{min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{font-weight:950;letter-spacing:2px;text-decoration:none}.brand span{color:var(--gold)}
+.links{display:flex;gap:20px;flex-wrap:wrap}.links a{color:#c5c8cb;text-decoration:none;font-size:13px;font-weight:800}.links a:hover{color:var(--gold)}
+.hero{padding:90px 0 60px}.eyebrow{color:var(--gold);font-size:12px;font-weight:900;letter-spacing:2px}.hero h1{font-size:clamp(42px,7vw,76px);line-height:1.02;margin:10px 0 18px;letter-spacing:-2px}.hero p{max-width:700px;color:var(--muted);font-size:18px}
+.badge{display:inline-block;border:1px solid var(--gold);color:var(--gold);border-radius:999px;padding:6px 12px;font-size:11px;font-weight:900;letter-spacing:1px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:30px 0 70px}.card,.section{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:24px}.card h2,.section h2{margin:0 0 8px;font-size:20px}.card p,.section p,.section li{color:var(--muted)}
+.button{display:inline-block;margin-top:12px;padding:12px 16px;border-radius:10px;background:var(--gold);color:var(--bg);font-weight:900;text-decoration:none;font-size:13px}
+.pagehead{padding:60px 0 25px}.pagehead h1{font-size:clamp(34px,5vw,52px);margin:8px 0}.pagehead p{color:var(--muted);max-width:760px}
+.section{margin:14px 0}.section h2{color:var(--gold);font-size:13px;letter-spacing:1px}.danger{border-color:#743c3c}.danger h2{color:var(--danger)}
+.notice{background:var(--card2);border:1px solid var(--gold);border-radius:14px;padding:18px;margin:20px 0;color:#c5c8cb}
+footer{border-top:1px solid var(--line);margin-top:60px;padding:28px 0 45px;color:#70777d;font-size:12px}.mail{color:var(--gold);font-weight:800}
+@media(max-width:760px){.grid{grid-template-columns:1fr}.navin{align-items:flex-start;flex-direction:column;padding:16px 0}.hero{padding-top:55px}.links{gap:13px}}
