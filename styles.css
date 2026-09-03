@@ -143,3 +143,16 @@ footer{border-top:1px solid rgba(255,255,255,.07);padding:55px 0 35px;background
   .links::-webkit-scrollbar{display:none}
   .links a{flex:0 0 auto}
 }
+
+/* v7.2 Features polish */
+.account-links a,
+.account-links a:hover,
+.account-links a:focus,
+.account-links a:visited,
+.account-links a b,
+.account-links a span{
+  text-decoration:none !important;
+}
+.account-links a:hover{
+  border-color:#5a4923;
+}
