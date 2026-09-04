@@ -213,3 +213,6 @@ body:has(.home-jumpbar) footer{padding-top:38px;padding-bottom:28px}
  body:has(.home-jumpbar) .phones{margin-top:10px}
  body:has(.home-jumpbar) .section-button{margin-top:12px}
 }
+
+/* v7.4.1 jump target fix */
+#features,#training,#workout-player,#test-center,#standards,#roadmap{scroll-margin-top:110px;}
