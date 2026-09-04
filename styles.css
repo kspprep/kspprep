@@ -187,3 +187,29 @@ footer .footer-grid a{text-decoration:none}
   .section-route{justify-content:flex-start}
   .section-button{margin-top:20px}
 }
+
+/* v7.4 compact homepage experiment — v7.3 is rollback baseline */
+.home-jumpbar{border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:#0d1012}
+.home-jumpbar-inner{min-height:56px;display:flex;align-items:center;justify-content:center;gap:22px;white-space:nowrap;overflow-x:auto;scrollbar-width:none}
+.home-jumpbar-inner::-webkit-scrollbar{display:none}
+.home-jumpbar-inner span{color:#737a80;font-size:9px;font-weight:950;letter-spacing:1.3px}
+.home-jumpbar-inner a{color:#c9ccce;font-size:11px;font-weight:900;text-decoration:none}
+.home-jumpbar-inner a:hover,.home-jumpbar-inner a:focus{color:var(--gold)}
+body:has(.home-jumpbar) section:not(.hero):not(.home-jumpbar){padding-top:50px;padding-bottom:50px}
+body:has(.home-jumpbar) .hero{min-height:auto;padding-top:52px;padding-bottom:48px}
+body:has(.home-jumpbar) .feature-card{min-height:0;padding-top:20px;padding-bottom:20px}
+body:has(.home-jumpbar) .feature-grid{gap:12px}
+body:has(.home-jumpbar) .section-head{margin-bottom:20px}
+body:has(.home-jumpbar) .phones{margin-top:16px}
+body:has(.home-jumpbar) .section-route{margin-top:10px;margin-bottom:16px}
+body:has(.home-jumpbar) .section-button{margin-top:16px}
+body:has(.home-jumpbar) footer{padding-top:38px;padding-bottom:28px}
+@media(max-width:760px){
+ .home-jumpbar-inner{justify-content:flex-start;min-height:50px;gap:18px;padding-left:20px;padding-right:20px}
+ body:has(.home-jumpbar) section:not(.hero):not(.home-jumpbar){padding-top:34px;padding-bottom:34px}
+ body:has(.home-jumpbar) .hero{padding-top:34px;padding-bottom:32px}
+ body:has(.home-jumpbar) .feature-card{padding:17px}
+ body:has(.home-jumpbar) .section-head{margin-bottom:16px}
+ body:has(.home-jumpbar) .phones{margin-top:10px}
+ body:has(.home-jumpbar) .section-button{margin-top:12px}
+}
